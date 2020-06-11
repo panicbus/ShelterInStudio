@@ -206,13 +206,6 @@
 		window.scrollTo(xscroll, yscroll);
 	}
 
-
-	// $('.bio-modal').on('click', function(e){
- //    e.preventDefault();
- //    $('#wheelerBio').modal('show').find('.modal-content').load($(this).attr('href'));
- //  });
-
-
 	$('a[data-modal]').click(function(event) {
 	  $(this).modal();
 	  return false;
