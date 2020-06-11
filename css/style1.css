@@ -1,12 +1,8 @@
-/*@import url(http://fonts.googleapis.com/css?family=Playfair+Display+SC:400italic,700,900|Raleway:500|Martel+Sans:400,700|Annie+Use+Your+Telescope|Neucha);*/
 @import url(https://fonts.googleapis.com/css2?family=Martel+Sans:wght@400;700&family=Neucha&display=swap);
            
 @font-face {
   font-weight: normal;
   font-style: normal;
-/*  font-family: 'codropsicons';
-  src: url("../fonts/codropsicons/codropsicons.eot");
-  src: url("../fonts/codropsicons/codropsicons.eot?#iefix") format("embedded-opentype"), url("../fonts/codropsicons/codropsicons.woff") format("woff"), url("../fonts/codropsicons/codropsicons.ttf") format("truetype"), url("../fonts/codropsicons/codropsicons.svg#codropsicons") format("svg");*/
 }
 *, *:after, *:before {
   -webkit-box-sizing: border-box;
@@ -232,6 +228,11 @@ button:focus {
   align-items: center;
   display: none;
 }
+.top-bar h3 {
+  width: 76%;
+  text-align: center;
+  margin: 15px auto 0;
+  }
 
 .top-bar__headline {
   margin: 0 auto;
