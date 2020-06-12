@@ -38,6 +38,7 @@
 		gridItems = gridItemsContainer.querySelectorAll('.grid__item'),
 		contentItems = contentItemsContainer.querySelectorAll('.content__item'),
 		closeCtrl = contentItemsContainer.querySelector('.close-button'),
+		heartCtrl = sidebarEl.querySelector('.heart-icon'),
 		current = -1,
 		lockScroll = false, xscroll, yscroll,
 		isAnimating = false,
@@ -92,6 +93,13 @@
 		closeCtrl.addEventListener('click', function() {
 			// hide content
 			hideContent();
+		});
+
+		heartCtrl.addEventListener('click', function() {
+			if ($('.content').hasClass('content--show')){
+				// make heart clickable and hide content with click
+				hideContent();
+			}
 		});
 
 		// keyboard esc - hide content
