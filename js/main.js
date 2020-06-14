@@ -214,10 +214,18 @@
 		window.scrollTo(xscroll, yscroll);
 	}
 
-	$('a[data-modal]').click(function(event) {
-	  $(this).modal();
-	  return false;
-	});
+	function includeArtistContent(){
+		$('.artistContent').each(function(index){
+			var artistName = $(this).parent('article').attr('id');
+	    $(this).load('./artistResponses/'+ artistName +'/response_' + artistName + '.html').attr('data-index', index);
+		})
+	};
+	includeArtistContent();
+
+	$(document).on('click', '.bio-modal', function(e){
+    e.preventDefault();
+    $('#theModal').modal('show').find('.modal-content').load($(this).attr('href'));
+  });
 
 	init();
 
