@@ -227,7 +227,7 @@ button:focus {
 
 /* Grid item */
 .grid__item {
-  padding: 45px 55px 30px;
+  padding: 45px 25px 30px;
   position: relative;
   color: inherit !important;
   background: #fff;
@@ -245,6 +245,7 @@ button:focus {
   flex-direction: column;
   -webkit-justify-content: center;
   justify-content: center;
+  transition: .2s all;
 }
 
 /* Grid item "border" */
@@ -261,6 +262,90 @@ button:focus {
 .grid__item * {
   z-index: 10;
 }
+
+.grid-item-inner {
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 100px;
+  border: 1px solid #e0e0e0;
+}
+
+.grid__item:hover .grid-item-inner {
+  border: 1px solid #81c483;
+  -webkit-transition: -webkit-transform 0.5s;
+  transition: transform 0.5s;
+}
+
+#grid-heilweil {
+  background-image: url('../img/artist-images/heilweil/Victoria_Mara_Heilweil_Day34.jpg');
+}
+#grid-hoover {
+  background-image: url('../img/artist-images/hoover/stairs_sculpture_land_art_1.jpg');
+}
+#grid-wheeler {
+  background-image: url('../img/artist-images/wheeler/five.jpg');
+}
+#grid-zheng {
+  background-image: url('../img/artist-images/zheng/buddha_in_me.jpg');
+}
+#grid-briscoe {
+  background-image: url('../img/artist-images/briscoe/fair_warning.jpeg');
+}
+#grid-walsh {
+  background-image: url('../img/artist-images/walsh/sculpture1.jpg');
+}
+#grid-gregory {
+  background-image: url('../img/artist-images/gregory/journal1.jpeg');
+}
+#grid-jenkins {
+  background-image: url('../img/artist-images/jenkins/backyard.jpeg');
+}
+#grid-yoshikawa {
+  background-image: url('../img/artist-images/yoshikawa/cure_2.jpeg');
+}
+#grid-gayer {
+  background-image: url('../img/artist-images/gayer/tbd_salon2.png');
+}
+#grid-kaltenbach {
+  /*background-image: url('../img/artist-images/kaltenbach/');*/
+}
+#grid-kleinsmith {
+  /*background-image: url('../img/artist-images/kleinsmith/');*/
+}
+#grid-fodor {
+  background-image: url('../img/artist-images/fodor/two_futures.jpg');
+}
+#grid-madison {
+  background-image: url('../img/artist-images/madison/one.jpg');
+}
+#grid-rowe {
+  background-image: url('../img/artist-images/rowe/vanitas.jpg');
+}
+#grid-deane {
+  background-image: url('../img/artist-images/deane/aftercaligari.jpg');
+}
+#grid-nelson {
+  background-image: url('../img/artist-images/nelson/help_me_help.jpg');
+}
+#grid-coley {
+  background-image: url('../img/artist-images/coley/one.jpg');
+}
+#grid-barber {
+  background-image: url('../img/artist-images/barber/lightmeter_bean.jpg');
+}
+#grid-sesay {
+  /*background-image: url('../img/artist-images/sesay/');*/
+}
+#grid-pollard {
+  background-image: url('../img/artist-images/pollard/dreamer.jpg');
+}
+#grid-beldner {
+  background-image: url('../img/artist-images/beldner/one.jpeg');
+}
+#grid-crusan {
+  background-image: url('../img/artist-images/crusan/crusan1.jpeg');
+}
+
 
 /* grid item element and full content element styles */
 .title {
@@ -286,7 +371,7 @@ button:focus {
 .loader {
   height: 1px;
   width: 40%;
-  margin: 1em auto;
+  margin: 1em auto 2em;
   position: relative;
   background: rgba(0, 0, 0, 0.1);
 }
@@ -392,9 +477,6 @@ button:focus {
   clear: both;
 }
 
-.bio-pic {
-}
-
 .meta__avatar {
   border-radius: 50%;
   margin: 2em auto;
@@ -403,27 +485,18 @@ button:focus {
   height: 75px;
 }
 
-.meta--preview .meta__avatar {
+.meta--preview .meta__avatar,
+.grid-item-inner {
   -webkit-filter: grayscale(50%);
   filter: grayscale(50%);
 }
 
 .grid__item:hover .meta--preview .meta__avatar,
-.grid__item:focus .meta--preview .meta__avatar {
+.grid__item:hover .grid-item-inner,
+.grid__item:focus .meta--preview .meta__avatar,
+.grid__item:focus .grid-item-inner {
   -webkit-filter: none;
   filter: none;
-}
-
-.meta__date,
-.meta__reading-time {
-  display: block;
-  float: left;
-  color: #aaa;
-}
-
-.meta__reading-time {
-  text-align: right;
-  float: right;
 }
 
 .meta__misc {
@@ -457,36 +530,28 @@ button:focus {
 }
 
 .meta--preview .meta__avatar,
-.meta--preview .meta__date,
-.meta--preview .meta__reading-time {
+.grid-item-inner {
   -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
   transition: transform 0.3s, opacity 0.3s;
   -webkit-transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
   transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
 }
 
-.grid__item--loading .meta__avatar {
+.grid__item--loading .meta__avatar,
+.grid__item--loading .grid-item-inner {
   -webkit-transition-delay: 0.1s;
   transition-delay: 0.1s;
 }
 
-.grid__item--loading .meta__date {
-  -webkit-transition-delay: 0.17s;
-  transition-delay: 0.17s;
-}
-
-.grid__item--loading .meta__reading-time {
-  -webkit-transition-delay: 0.24s;
-  transition-delay: 0.24s;
-}
-
-.grid__item--loading .meta__avatar,
-.grid__item--loading .meta__date,
-.grid__item--loading .meta__reading-time {
+.grid__item--loading .meta__avatar {
   -webkit-transform: scale3d(0.5, 0.5, 1);
   transform: scale3d(0.5, 0.5, 1);
   opacity: 0;
 }
+/*.grid__item--loading .grid-item-inner {
+  -webkit-transform: scale3d(0.95, 0.95, 1);
+  transform: scale3d(0.95, 0.95, 1);
+}*/
 
 /* Grid footer */
 .page-meta {
@@ -569,10 +634,6 @@ button:focus {
   padding: 60px 60px 80px 60px;
   pointer-events: none;
   font-size: 0.85em;
-}
-.content__item p {
-  max-width: 1200px;
-  text-align: justify;
 }
 
 .content__item.content__item--show {
@@ -775,36 +836,9 @@ button:focus {
   }
 
   .grid__item {
-    padding: 45px 45px 30px;
+    padding: 45px 25px 30px;
   }
 
-  /* Demo ad */
-  body #cdawrap {
-    right: auto;
-    left: 30px;
-    top: auto;
-    bottom: 0;
-    background: none;
-    border: none;
-    width: 240px;
-    background: #f5f5f5;
-  }
-
-  body #cdawrap .carbon-text {
-    color: #7b7b7b;
-  }
-
-  body #cdawrap a.carbon-poweredby {
-    color: #7883C4;
-  }
-
-  body #cdawrap a:hover.carbon-poweredby {
-    color: #333;
-  }
-
-  body #cdawrap #cda-remove {
-    display: none;
-  }
   .img-thumbnails {
     grid-template-columns: auto !important;
   }
@@ -831,7 +865,8 @@ button:focus {
     right: 5px;
     bottom: 5px;
     left: 5px;
-    border: 1px solid rgba(74, 74, 74, 0.075);
+    border: 1px solid #e0e0e0;
+    /*border: 1px solid rgba(74, 74, 74, 0.075);*/
     -webkit-transition: opacity 0.3s;
     transition: opacity 0.3s;
   }
