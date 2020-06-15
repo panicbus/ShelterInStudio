@@ -275,36 +275,40 @@ button:focus {
   -webkit-transition: -webkit-transform 0.5s;
   transition: transform 0.5s;
 }
+.grid__item:hover .meta__avatar {
+  animation: addPulse 1s
+}
+
 
 #grid-heilweil {
-  background-image: url('../img/artist-images/heilweil/Victoria_Mara_Heilweil_Day34.jpg');
+  background-image: url('../img/artist-images/heilweil/Victoria_Mara_Heilweil_Day34-thumb.jpg');
 }
 #grid-hoover {
-  background-image: url('../img/artist-images/hoover/stairs_sculpture_land_art_1.jpg');
+  background-image: url('../img/artist-images/hoover/stairs_sculpture_land_art_7-thumb.jpg');
 }
 #grid-wheeler {
-  background-image: url('../img/artist-images/wheeler/five.jpg');
+  background-image: url('../img/artist-images/wheeler/five-thumb.jpg');
 }
 #grid-zheng {
-  background-image: url('../img/artist-images/zheng/buddha_in_me.jpg');
+  background-image: url('../img/artist-images/zheng/thirteen-thumb.jpg');
 }
 #grid-briscoe {
-  background-image: url('../img/artist-images/briscoe/fair_warning.jpeg');
+  background-image: url('../img/artist-images/briscoe/fair_warning-thumb.jpeg');
 }
 #grid-walsh {
-  background-image: url('../img/artist-images/walsh/sculpture1.jpg');
+  background-image: url('../img/artist-images/walsh/sculpture3-thumb.jpg');
 }
 #grid-gregory {
-  background-image: url('../img/artist-images/gregory/journal1.jpeg');
+  background-image: url('../img/artist-images/gregory/journal1-thumb.jpeg');
 }
 #grid-jenkins {
-  background-image: url('../img/artist-images/jenkins/backyard.jpeg');
+  background-image: url('../img/artist-images/jenkins/backyard-thumb.jpeg');
 }
 #grid-yoshikawa {
-  background-image: url('../img/artist-images/yoshikawa/cure_2.jpeg');
+  background-image: url('../img/artist-images/yoshikawa/cure_2-thumb.jpeg');
 }
 #grid-gayer {
-  background-image: url('../img/artist-images/gayer/tbd_salon2.png');
+  background-image: url('../img/artist-images/gayer/tbd_salon2-thumb.png');
 }
 #grid-kaltenbach {
   /*background-image: url('../img/artist-images/kaltenbach/');*/
@@ -313,38 +317,40 @@ button:focus {
   /*background-image: url('../img/artist-images/kleinsmith/');*/
 }
 #grid-fodor {
-  background-image: url('../img/artist-images/fodor/two_futures.jpg');
+  background-image: url('../img/artist-images/fodor/two_futures-thumb.jpg');
 }
 #grid-madison {
-  background-image: url('../img/artist-images/madison/one.jpg');
+  background-image: url('../img/artist-images/madison/one-thumb.jpg');
 }
 #grid-rowe {
-  background-image: url('../img/artist-images/rowe/vanitas.jpg');
+  background-image: url('../img/artist-images/rowe/vanitas-thumb.jpg');
 }
 #grid-deane {
-  background-image: url('../img/artist-images/deane/aftercaligari.jpg');
+  background-image: url('../img/artist-images/deane/aftercaligari-thumb.jpg');
 }
 #grid-nelson {
-  background-image: url('../img/artist-images/nelson/help_me_help.jpg');
+  background-image: url('../img/artist-images/nelson/help_me_help-thumb.jpg');
 }
 #grid-coley {
-  background-image: url('../img/artist-images/coley/one.jpg');
+  background-image: url('../img/artist-images/coley/one-thumb.jpg');
 }
 #grid-barber {
-  background-image: url('../img/artist-images/barber/lightmeter_bean.jpg');
+  background-image: url('../img/artist-images/barber/lightmeter_bean-thumb.jpg');
 }
 #grid-sesay {
   /*background-image: url('../img/artist-images/sesay/');*/
 }
 #grid-pollard {
-  background-image: url('../img/artist-images/pollard/dreamer.jpg');
+  background-image: url('../img/artist-images/pollard/dreamer-thumb.jpg');
 }
 #grid-beldner {
-  background-image: url('../img/artist-images/beldner/one.jpeg');
+  background-image: url('../img/artist-images/beldner/five-thumb.jpeg');
 }
 #grid-crusan {
-  background-image: url('../img/artist-images/crusan/crusan1.jpeg');
+  background-image: url('../img/artist-images/crusan/crusan1-thumb.jpeg');
 }
+
+
 
 
 /* grid item element and full content element styles */
@@ -1023,4 +1029,20 @@ button:focus {
   transform: perspective(1px) translateY(-50%);
 }
 
+
+@-webkit-keyframes addPulse {
+    50% {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1);
+    transform: scale3d(1.1, 1.1, 1.1);
+    }
+}
+
+@keyframes addPulse {
+    50% {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1);
+    -ms-transform: scale3d(1.1, 1.1, 1.1);
+    transform: scale3d(1.1, 1.1, 1.1);
+    }
+}
+ 
 /*# sourceMappingURL=style1.css.map */

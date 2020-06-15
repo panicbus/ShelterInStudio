@@ -219,13 +219,6 @@
 			var artistName = $(this).parent('article').attr('id');
 	    $(this).load('./artistResponses/'+ artistName +'/response_' + artistName + '.html').attr('data-index', index);
 		});
-		// $('.grid-item-inner').each(function(){
-		// 	var artistGridItem = $(this).attr('id');
-		// 	var x = artistGridItem.substr(artistGridItem.indexOf("-") + 1);
-		// 	$(this).css({
-		// 		'background-image': 'url(../img/artist-images/'+ x +'/Victoria_Mara_Heilweil_Day13.jpg) no-repeat fixed center'
-		// 	})
-		// });
 	};
 	includeArtistContent();
 
