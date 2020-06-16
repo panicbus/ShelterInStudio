@@ -489,6 +489,10 @@ button:focus {
   display: block;
   width: 75px;
   height: 75px;
+  /*border: 2px solid #ccc;*/
+  -webkit-box-shadow: 0px 0px 3px 1px rgba(204,204,204,1);
+  -moz-box-shadow: 0px 0px 3px 1px rgba(204,204,204,1);
+  box-shadow: 0px 0px 3px 1px rgba(204,204,204,1);
 }
 
 .meta--preview .meta__avatar,
