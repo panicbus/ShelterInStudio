@@ -822,10 +822,13 @@
 .fa-umbrella:before {
   content: "\f0e9";
 }
-.fa-paste:before,
-.fa-clipboard:before {
+.fa-paste:before {
   content: "\f0ea";
 }
+.fa-clipboard:before {
+  content: "\f328";
+}
+
 .fa-lightbulb-o:before {
   content: "\f0eb";
 }

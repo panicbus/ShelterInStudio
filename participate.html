@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Shelter In Studio Participate form</title>
+		<meta name="description" content="The Shelter in Studio interview project: California Artists response to Covid-19" />
+		<meta name="keywords" content="art, artists, Covid-19, Coronavirus, California, interview, stay-at-home, sheler in place, multimedia art, Peter Foucault, Nico Crisafulli, 2020" />
+		<meta name="author" content="Peter Foucault, Nico Crisafulli" />
+		<link rel="shortcut icon" href="./heart.ico">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.3.0/css/font-awesome.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/style1.css" />
+		<link rel="stylesheet" type="text/css" href="css/submitForm.css" />
+
+		<script src="js/modernizr.custom.js"></script>
+
+	</head>
+<body class="participate-main">
+
+	<a href="/"><i class="fa fa-arrow-left"></i> return to main</a>
+
+	<div class="participate-content">
+
+		<h1>Participate here</h1>
+
+		<p>As an artist, you've been impated by the shelter-in-place order. If you would like to take part in the Shelter In Studio project,  answer the the following questions in the form below.</p> 
+		<p>If you would like to have the art pieces you've been working on included, use the upload form and send them to us.&nbsp; &ast;<i>Up to three only.</i></p>
+
+<div id="form-questions-hidden">How has being stuck at home affected your art practice?
+Have you created new work during this period?
+Has your work changed in any way during this period?
+What have some of your challenges been?
+What have some of your successes been?
+</div>
+
+		<div id="form-questions">
+			<div class="question">How has being stuck at home affected your art practice?</div>
+			<div class="question">Have you created new work during this period?</div>
+			<div class="question">Has your work changed in any way during this period?</div>
+			<div class="question">What have some of your challenges been?</div>
+			<div class="question">What have some of your successes been?</div>
+		</div>
+		
+		<span onclick="copyToClip(document.getElementById('form-questions-hidden').innerHTML)">Copy the questions to your clipboard - paste them into the message area below<i class="fa fa-clipboard" ></i></span>
+
+
+		<form class="form" id="contactform" action="https://formspree.io/mknqzwrk" method="POST" enctype="multipart/form-data">
+	    <fieldset class="field">
+	        <label class="label" for="name"><span class="label-content">Your name</span></label>
+	        <input class="input" type="text" name="name"  required>
+	    </fieldset>
+	    <fieldset class="field">
+	        <label class="label" for="_replyto"><span class="label-content">Your email</span></label>
+	        <input class="input" type="email" name="_replyto" required>
+	    </fieldset>
+	    <fieldset class="field">
+	        <label class="label" for="message"><span class="label-content">Your message</span></label>
+	        <textarea class="input" name="message" rows="10" required></textarea>
+	    </fieldset>
+	    <fieldset class="field">
+		    	<label><span class="label-content">Your file (optional)</span></label>
+			    <input type="file" name="upload" class="file-upload">
+	    </fieldset>
+	    <input class="hidden" type="text" name="_gotcha" style="display:none">
+	    <input class="hidden" type="hidden" name="_subject" value="Message via http://domain.com">
+      <input class="button submit" type="submit" value="Send">
+	  <!-- <label>
+	    Your email:
+	    <input type="text" name="_replyto">
+	  </label>
+	  <label>
+	    Your file:
+	    <input type="file" name="upload">
+	  </label>
+
+	  <button type="submit">Send</button> -->
+	</form>
+
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+	<script src="js/classie.js"></script>
+	<script src="js/modal.js"></script>
+	<script src="js/lightbox.js"></script>
+	<script src="js/submitForm.js"></script>
+</body>
+</html>

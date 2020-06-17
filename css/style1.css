@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css2?family=Martel+Sans:wght@400;700&family=Neucha&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Montserrat&display=swap);
            
 @font-face {
   font-weight: normal;
@@ -40,12 +41,14 @@ a {
   outline: none;
   color: #81c483 !important;
   text-decoration: none !important;
+    transition: transform 2s;
 }
 
 a:hover,
 a:focus {
   color: #333 !important;
   outline: none !important;
+    transition: transform 2s;
 }
 
 button:focus {
@@ -92,9 +95,8 @@ button:focus {
   text-align: center;
   white-space: nowrap;
   min-height: 45px;
-}
-.shelter-links {
   font-size: 20px;
+  /*transition: transform 2s;*/
 }
 
 .shelter-links::after {
@@ -114,6 +116,18 @@ button:focus {
 }
 .about {
   padding-left: 20px;
+}
+
+.participate-link {
+  display: block;
+  margin: 15px auto;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  /*transition: transform 1s !important;*/
+}
+.participate-link a,  {
+  color: #81c483 !important;
 }
 
 /* Main content */
@@ -281,73 +295,100 @@ button:focus {
 
 
 #grid-heilweil {
-  background-image: url('../img/artist-images/heilweil/Victoria_Mara_Heilweil_Day34-thumb.jpg');
+  background: url('../img/artist-images/heilweil/Victoria_Mara_Heilweil_Day34-thumb.jpg') center;
+  background-size: cover;
 }
 #grid-hoover {
-  background-image: url('../img/artist-images/hoover/stairs_sculpture_land_art_7-thumb.jpg');
+  background: url('../img/artist-images/hoover/stairs_sculpture_land_art_7-thumb.jpg') center;
+  background-size: cover;
 }
 #grid-wheeler {
-  background-image: url('../img/artist-images/wheeler/five-thumb.jpg');
+  background: url('../img/artist-images/wheeler/five-thumb.jpg') center;
+  background-size: auto;
 }
 #grid-zheng {
-  background-image: url('../img/artist-images/zheng/thirteen-thumb.jpg');
+  background: url('../img/artist-images/zheng/thirteen-thumb.jpg') center;
+  background-size: cover;
 }
 #grid-briscoe {
-  background-image: url('../img/artist-images/briscoe/fair_warning-thumb.jpeg');
+  background: url('../img/artist-images/briscoe/fair_warning-thumb.jpeg') center;
+  background-size: cover;
 }
 #grid-walsh {
-  background-image: url('../img/artist-images/walsh/sculpture3-thumb.jpg');
+  background: url('../img/artist-images/walsh/sculpture3-thumb.jpg') center;
+  background-size: cover;
 }
 #grid-gregory {
-  background-image: url('../img/artist-images/gregory/journal1-thumb.jpeg');
+  background: url('../img/artist-images/gregory/journal1-thumb.jpeg') center;
+  background-size: cover;
 }
 #grid-jenkins {
-  background-image: url('../img/artist-images/jenkins/backyard-thumb.jpeg');
+  background: url('../img/artist-images/jenkins/backyard-thumb.jpeg') center;
+  background-size: cover;
 }
 #grid-yoshikawa {
-  background-image: url('../img/artist-images/yoshikawa/cure_2-thumb.jpeg');
+  background: url('../img/artist-images/yoshikawa/cure_2-thumb.jpeg') center;
+  background-size: cover;
 }
 #grid-gayer {
-  background-image: url('../img/artist-images/gayer/tbd_salon2-thumb.png');
+  background: url('../img/artist-images/gayer/tbd_salon2-thumb.png') center;
+  background-size: cover;
 }
 #grid-kaltenbach {
-  /*background-image: url('../img/artist-images/kaltenbach/');*/
+  /*background: url('../img/artist-images/kaltenbach/') center;*/
+  background-size: cover;
 }
 #grid-kleinsmith {
-  /*background-image: url('../img/artist-images/kleinsmith/');*/
+  /*background: url('../img/artist-images/kleinsmith/') center;*/
+  background-size: cover;
 }
 #grid-fodor {
-  background-image: url('../img/artist-images/fodor/two_futures-thumb.jpg');
+  background: url('../img/artist-images/fodor/two_futures-thumb.jpg') center;
+  background-size: cover;
 }
 #grid-madison {
-  background-image: url('../img/artist-images/madison/one-thumb.jpg');
+  background: url('../img/artist-images/madison/one-thumb.jpg') center;
+  background-size: cover;
 }
 #grid-rowe {
-  background-image: url('../img/artist-images/rowe/vanitas-thumb.jpg');
+  background: url('../img/artist-images/rowe/vanitas-thumb.jpg') center;
+  background-size: cover;
 }
 #grid-deane {
-  background-image: url('../img/artist-images/deane/aftercaligari-thumb.jpg');
+  background: url('../img/artist-images/deane/aftercaligari-thumb.jpg') center;
+  background-size: cover;
 }
 #grid-nelson {
-  background-image: url('../img/artist-images/nelson/help_me_help-thumb.jpg');
+  background: url('../img/artist-images/nelson/help_me_help-thumb.jpg') center;
+  background-size: cover;
 }
 #grid-coley {
-  background-image: url('../img/artist-images/coley/one-thumb.jpg');
+  background: url('../img/artist-images/coley/one-thumb.jpg') center;
+  background-size: cover;
 }
 #grid-barber {
-  background-image: url('../img/artist-images/barber/lightmeter_bean-thumb.jpg');
+  background: url('../img/artist-images/barber/lightmeter_bean-thumb.jpg') center;
+  background-size: cover;
 }
 #grid-sesay {
-  /*background-image: url('../img/artist-images/sesay/');*/
+  /*background: url('../img/artist-images/sesay/') center;*/
+  background-size: cover;
 }
 #grid-pollard {
-  background-image: url('../img/artist-images/pollard/dreamer-thumb.jpg');
+  background: url('../img/artist-images/pollard/dreamer-thumb.jpg') center;
+  background-size: cover;
 }
 #grid-beldner {
-  background-image: url('../img/artist-images/beldner/five-thumb.jpeg');
+  background: url('../img/artist-images/beldner/five-thumb.jpeg') center;
+  background-size: cover;
 }
 #grid-crusan {
-  background-image: url('../img/artist-images/crusan/crusan1-thumb.jpeg');
+  background: url('../img/artist-images/crusan/crusan1-thumb.jpeg') center;
+  background-size: cover;
+}
+#grid-treggiari {
+  background: url('../img/artist-images/treggiari/two-thumb.jpg') center;
+  background-size: cover;
 }
 
 
@@ -490,9 +531,11 @@ button:focus {
   width: 75px;
   height: 75px;
   /*border: 2px solid #ccc;*/
+  -webkit-appearance: none; /* for box shadows to show on iOS */
   -webkit-box-shadow: 0px 0px 3px 1px rgba(204,204,204,1);
   -moz-box-shadow: 0px 0px 3px 1px rgba(204,204,204,1);
   box-shadow: 0px 0px 3px 1px rgba(204,204,204,1);
+
 }
 
 .meta--preview .meta__avatar,
@@ -1003,10 +1046,10 @@ button:focus {
   margin-top: -20px;
 }
 
-.shelter-links:focus {
+.shelter-links:focus,
+.participate-link:focus {
   color: #81c483 !important;
 }
-
 
 /*LIGHTBOX THUMBNAILS*/
 .img-thumbnails {
@@ -1025,6 +1068,7 @@ button:focus {
   border: 2px solid #dcdcdc;
   border-radius: 5px;
   padding: 10px;
+  -webkit-appearance: none; /* for box shadows to show on iOS */
   -webkit-box-shadow: 0px 0px 15px 3px rgba(224,224,224,1);
   -moz-box-shadow: 0px 0px 15px 3px rgba(224,224,224,1);
   box-shadow: 0px 0px 15px 3px rgba(224,224,224,1);
