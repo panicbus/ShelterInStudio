@@ -391,7 +391,7 @@ button:focus {
   background-size: cover;
 }
 #grid-quick {
-  /*background: url('../img/artist-images/quick/quick1-thumb.jpg') center;*/
+  background: url('../img/artist-images/quick/quick1-thumb.jpg') center;
   background-size: cover;
 }
 #grid-sudhakaran {
