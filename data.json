@@ -1,0 +1,152 @@
+{
+  "barber": {
+		"name": "barber",
+	  "path": "response_barber.html",
+	  "response": "this is barber's response",
+	  "bio": "this is barber's bio"
+	},
+	"beldner": {
+		"name": "beldner",
+	  "path": "response_beldner.html",
+		"response":  "this is beldner's resonse",
+	  "bio": "this is barber's bio"
+	},
+	"briscoe": {
+		"name": "briscoe",
+	  "path": "response_briscoe.html",
+		"response":  "this is beldner's resonse",
+	  "bio": "this is barber's bio"
+	},  
+	"coley": {
+		"name": "coley",
+	  "path": "response_coley.html",
+	  "response": "this is coley's response",
+	  "bio": "this is coley's bio"
+	},
+	"crusan": {
+		"name": "crusan",
+	  "path": "response_crusan.html",
+		"response":  "this is crusan's resonse",
+	  "bio": "this is barber's bio"
+	},
+	"deane": {
+		"name": "deane",
+	  "path": "response_deane.html",
+		"response":  "this is beldner's resonse",
+	  "bio": "this is barber's bio"
+	},
+	"fodor": {
+		"name": "fodor",
+	  "path": "response_fodor.html",
+	  "response": "this is fodor's response",
+	  "bio": "this is fodor's bio"
+	},
+	"gayer": {
+		"name": "gayer",
+	  "path": "response_gayer.html",
+		"response":  "this is gayer's resonse",
+	  "bio": "this is barber's bio"
+	},
+	"gregory": {
+		"name": "gregory",
+	  "path": "response_gregory.html",
+		"response":  "this is gregory's resonse",
+	  "bio": "this is gregory's bio"
+	},
+	"heilweil": {
+		"name": "heilweil",
+	  "path": "response_heilweil.html",
+		"response":  "this is beldner's resonse",
+	  "bio": "this is barber's bio"
+	},
+	"hoover": {
+		"name": "hoover",
+	  "path": "response_hoover.html",
+	  "response": "this is hoover's response",
+	  "bio": "this is hoover's bio"
+	},
+	"jenkins": {
+		"name": "jenkins",
+	  "path": "response_jenkins.html",
+		"response":  "this is jenkins's resonse",
+	  "bio": "this is barber's bio"
+	},
+	"kaltenbach": {
+		"name": "kaltenbach",
+	  "path": "response_kaltenbach.html",
+		"response":  "this is kaltenbach's resonse",
+	  "bio": "this is kaltenbach's bio"
+	},  
+	"kleinsmith": {
+		"name": "kleinsmith",
+	  "path": "response_kleinsmith.html",
+		"response":  "this is beldner's resonse",
+	  "bio": "this is barber's bio"
+	},  
+	"madison": {
+		"name": "madison",
+	  "path": "response_madison.html",
+	  "response": "this is madison's response",
+	  "bio": "this is barber's bio"
+	},
+	"nelson": {
+		"name": "nelson",
+	  "path": "response_nelson.html",
+		"response":  "this is nelson's resonse",
+	  "bio": "this is barber's bio"
+	},  
+	"pollard": {
+		"name": "pollard",
+	  "path": "response_pollard.html",
+	  "response": "this is pollard's response",
+	  "bio": "this is pollard's bio"
+	},
+	"quick": {
+		"name": "quick",
+	  "path": "response_quick.html",
+		"response":  "this is quick's resonse",
+	  "bio": "this is barber's bio"
+	},
+	"rowe": {
+		"name": "rowe",
+	  "path": "response_rowe.html",
+		"response":  "this is beldner's resonse",
+	  "bio": "this is barber's bio"
+	},
+	"sesay": {
+		"name": "sesay",
+	  "path": "response_sesay.html",
+	  "response": "this is sesay's response",
+	  "bio": "this is sesay's bio"
+	},
+	"sudhakaran": {
+		"name": "sudhakaran",
+	  "path": "response_sudhakaran.html",
+	  "response": "this is sudhakaran's response",
+	  "bio": "this is sudhakaran's bio"
+	},
+	"treggiari": {
+		"name": "treggiari",
+	  "path": "response_treggiari.html",
+		"response":  "this is treggiari's resonse",
+	  "bio": "this is barber's bio"
+	},
+	"walsh": {
+		"name": "walsh",
+	  "path": "response_walsh.html",
+		"response":  "this is beldner's resonse",
+	  "bio": "this is barber's bio"
+	},
+	"yoshikawa": {
+		"name": "yoshikawa",
+	  "path": "response_yoshikawa.html",
+	  "response": "this is yoshikawa's response",
+	  "bio": "this is yoshikawa's bio"
+	},
+	"zheng": {
+		"name": "zheng",
+	  "path": "response_zheng.html",
+		"response":  "this is zheng's resonse",
+	  "bio": "this is barber's bio"
+	}
+}

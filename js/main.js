@@ -214,6 +214,24 @@
 		window.scrollTo(xscroll, yscroll);
 	}
 
+	// // ///////////// JSON AJAX /////////
+	// $.getJSON( "data.json", function( data ) {
+	//   var items = [];
+	//   $.each( data, function( key, val ) {
+	//     items.push( val );
+	//   });
+	//   $.each(items, function(e){
+	//  	  $( "<article/>", {
+	// 	  	"id": items[e].name,
+	// 	    "class": "content__item bitch-ass",
+	// 	    html: "<div class='artistContent-"+e+"'></div>"
+	// 	  }).appendTo( ".scroll-wrap" );
+	// 	  var loadPath = "./artistResponses/" + items[e].name + "/" + items[e].path;
+	//     $(".artistContent-"+e+"").load(loadPath);
+	//   });
+	// });
+	// // /////////
+
 	function includeArtistContent(){
 		$('.artistContent').each(function(index){
 			var artistName = $(this).parent('article').attr('id');
@@ -226,6 +244,8 @@
     e.preventDefault();
     $('#theModal').modal('show').find('.modal-content').load($(this).attr('href'));
   });
+
+
 
 	init();
 

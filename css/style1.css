@@ -390,9 +390,14 @@ button:focus {
   background: url('../img/artist-images/treggiari/two-thumb.jpg') center;
   background-size: cover;
 }
-
-
-
+#grid-quick {
+  /*background: url('../img/artist-images/quick/quick1-thumb.jpg') center;*/
+  background-size: cover;
+}
+#grid-sudhakaran {
+  background: url('../img/artist-images/sudhakaran/lotus-thumb.jpg') center;
+  background-size: cover;
+}
 
 /* grid item element and full content element styles */
 .title {
@@ -530,7 +535,6 @@ button:focus {
   display: block;
   width: 75px;
   height: 75px;
-  /*border: 2px solid #ccc;*/
   -webkit-appearance: none; /* for box shadows to show on iOS */
   -webkit-box-shadow: 0px 0px 3px 1px rgba(204,204,204,1);
   -moz-box-shadow: 0px 0px 3px 1px rgba(204,204,204,1);
@@ -795,16 +799,6 @@ button:focus {
   transition-delay: 0.2s;
 }
 
-.content__item--show .meta--full .meta__date {
-  -webkit-transition-delay: 0.27s;
-  transition-delay: 0.27s;
-}
-
-.content__item--show .meta--full .meta__reading-time {
-  -webkit-transition-delay: 0.34s;
-  transition-delay: 0.34s;
-}
-
 .content__item--show.content__item p {
   opacity: 1;
   -webkit-transition: opacity 0.5s 0.25s;
@@ -932,8 +926,17 @@ button:focus {
   .grid__item--loading.grid__item::before {
     opacity: 0;
   }
+
   .img-thumbnails {
     grid-template-columns: auto auto !important;
+  }
+
+  .thumb-inner.video {
+    min-width: 100%;
+  }
+  .thumb-inner.video iframe {
+    min-width: 100%;
+    max-width: 100%;
   }
 }
 @media screen and (min-width: 1200px) {

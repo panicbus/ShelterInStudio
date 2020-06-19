@@ -64,7 +64,11 @@ What have some of your successes been?
 	    </fieldset>
 	    <fieldset class="field">
 		    	<label><span class="label-content">Your images (optional)</span></label>
-			    <input type="file" name="upload" class="file-upload">
+			    <div class="upload-fields">
+			    	<input type="file" name="upload" class="file-upload">
+  			    <input type="file" name="upload" class="file-upload">
+  			    <input type="file" name="upload" class="file-upload">
+		    	</div>
 	    </fieldset>
 	    <input class="hidden" type="text" name="_gotcha" style="display:none">
 	    <input class="hidden" type="hidden" name="_subject" value="Message via http://domain.com">
@@ -74,8 +78,6 @@ What have some of your successes been?
 
 	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
 	<script src="js/classie.js"></script>
-	<script src="js/modal.js"></script>
-	<script src="js/lightbox.js"></script>
 	<script src="js/submitForm.js"></script>
 </body>
 </html>

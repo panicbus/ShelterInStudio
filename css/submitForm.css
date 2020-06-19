@@ -7,7 +7,7 @@
 }
 
 .participate-content {
-	  width: 80%;
+	  width: 85%;
 	  margin: 0 auto;
 }
 
@@ -16,12 +16,15 @@
 	  line-height: 24px;
     padding-bottom: 20px;
 }
+
 #form-questions .question {
     font-size: 23px;
 }
+
 #form-questions-hidden {
 	display: none;
 }
+
 .fa-copy {
 	font-size: 25px;
 	border: 1px solid #1c90f3;
@@ -212,6 +215,18 @@ textarea.input {
 		background: #caebcb;
 }
 
+.upload-fields {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media screen and (min-width: 1000px) {
+	.file-upload {
+		width: 33%;
+	}
+}
 
 /* small screen */
 @media screen and (max-width: 599px) {
@@ -221,8 +236,20 @@ textarea.input {
   .form {
   	padding: 1px 15px 15px !important;
   }
+  .upload-fields {
+  	display: block;
+  }
   .file-upload {
-  	max-width: 225px;
+  	width: 100%;
+  }
+}
+
+@media screen and (max-width: 999px) {
+	.upload-fields {
+  	display: block;
+  }
+  .file-upload {
+  	width: 100%;
   }
 }
 
