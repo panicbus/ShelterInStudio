@@ -933,10 +933,15 @@ button:focus {
 
   .thumb-inner.video {
     min-width: 100%;
+    margin-right: 20px;
+    padding-right: 30px;
   }
+  .thumb-inner.video:nth-child(3) {
+    margin-right: 0px;
+}
   .thumb-inner.video iframe {
-    min-width: 100%;
     max-width: 100%;
+    height: 100% !important;
   }
 }
 @media screen and (min-width: 1200px) {
