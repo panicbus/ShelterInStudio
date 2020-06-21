@@ -31,4 +31,9 @@ function copyToClip(str) {
 
 $('.fa-clipboard').on('click', function(){
 	$(this).addClass('the-pulse');
+	$(this).one('webkitAnimationEnd oanimationend msAnimationEnd animationend',   
+    function(e) {
+    // code to execute after animation ends
+      $(this).removeClass('the-pulse');
+    });
 })
