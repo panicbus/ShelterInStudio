@@ -411,6 +411,10 @@ button:focus {
   background: url('../img/artist-images/mukherjee/mukherjee-thumb.jpg') center;
   background-size: cover;
 }
+#grid-taylor {
+  background: url('../img/artist-images/taylor/taylor-thumb.jpg') center;
+  background-size: cover;
+}
 
 /* grid item element and full content element styles */
 .title {
