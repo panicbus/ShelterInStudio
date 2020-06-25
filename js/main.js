@@ -245,8 +245,6 @@
     $('#theModal').modal('show').find('.modal-content').load($(this).attr('href'));
   });
 
-
-
 	init();
 
 })();
