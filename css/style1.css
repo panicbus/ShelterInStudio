@@ -343,14 +343,6 @@ button:focus {
   background: url('../img/artist-images/gayer/tbd_salon2-thumb.png') center;
   background-size: cover;
 }
-#grid-kaltenbach {
-  /*background: url('../img/artist-images/kaltenbach/') center;*/
-  background-size: cover;
-}
-#grid-kleinsmith {
-  /*background: url('../img/artist-images/kleinsmith/') center;*/
-  background-size: cover;
-}
 #grid-fodor {
   background: url('../img/artist-images/fodor/two_futures-thumb.jpg') center;
   background-size: cover;
@@ -377,10 +369,6 @@ button:focus {
 }
 #grid-barber {
   background: url('../img/artist-images/barber/lightmeter_bean-thumb.jpg') center;
-  background-size: cover;
-}
-#grid-sesay {
-  /*background: url('../img/artist-images/sesay/') center;*/
   background-size: cover;
 }
 #grid-pollard {
@@ -879,6 +867,19 @@ button:focus {
 
 /*////// MEDIA QUERIES ///////*/
 
+/*  Mobile Only  */
+@media screen and (max-width: 600px) {
+  .thumb-inner.video  {
+    margin: -50px auto -50px !important;
+    min-width: 100% !important;
+  }
+  /* full width thumbs for mobile */
+  .thumb-inner {
+    max-width: 95% !important;
+  }
+}
+
+
 /* Viewport sizes based on column number and sidebar */
 /* 1 column */
 @media screen and (min-width: 600px) {
@@ -910,13 +911,9 @@ button:focus {
     grid-template-columns: auto !important;
   }
 }
-@media screen and (max-width: 600px) {
-  .thumb-inner.video  {
-    margin: -50px auto -50px !important;
-    min-width: 100% !important;
-  }
-}
+
 @media screen and (min-width: 900px) {
+  /* 2 columns */
   .grid {
     display: -webkit-box;
     display: -webkit-flex;
@@ -927,7 +924,6 @@ button:focus {
     flex-wrap: wrap;
   }
 
-  /* 2 columns */
   .grid__item {
     width: 50%;
     border: none;
@@ -1116,6 +1112,11 @@ button:focus {
 
 .thumb-inner.video  {
   min-width: 90%;
+  margin: 0 auto;
+}
+
+.video-thumbs iframe {
+  display: block;
   margin: 0 auto;
 }
 
