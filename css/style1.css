@@ -323,6 +323,10 @@ button:focus {
   background: url('../img/artist-images/briscoe/fair_warning-thumb.jpeg') center;
   background-size: cover;
 }
+#grid-kleinsmith {
+  background: url('../img/artist-images/kleinsmith/kleinsmith-thumb.jpg') center;
+  background-size: cover;
+}
 #grid-walsh {
   background: url('../img/artist-images/walsh/sculpture3-thumb.jpg') center;
   background-size: cover;
@@ -401,6 +405,38 @@ button:focus {
 }
 #grid-taylor {
   background: url('../img/artist-images/taylor/taylor-thumb.jpg') center;
+  background-size: cover;
+}
+#grid-hewitt {
+  background: url('../img/artist-images/hewitt/hewitt-thumb.jpg') center;
+  background-size: cover;
+}
+#grid-daniels {
+  background: url('../img/artist-images/daniels/daniels-thumb.jpg') center;
+  background-size: cover;
+}
+#grid-thapa {
+  background: url('../img/artist-images/thapa/thapa-thumb.jpg') center;
+  background-size: cover;
+}
+#grid-tovera {
+  background: url('../img/artist-images/tovera/tovera-thumb.jpg') center;
+  background-size: cover;
+}
+#grid-wessler {
+  background: url('../img/artist-images/wessler/wessler-thumb.jpg') center;
+  background-size: cover;
+}
+#grid-allee {
+  background: url('../img/artist-images/allee/allee-thumb.jpg') center;
+  background-size: cover;
+}
+#grid-eisenberg {
+  background: url('../img/artist-images/eisenberg/eisenberg-thumb.jpg') center;
+  background-size: cover;
+}
+#grid-fitzgibbon {
+  background: url('../img/artist-images/fitzgibbon/fitzgibbon-thumb.jpg') center;
   background-size: cover;
 }
 
