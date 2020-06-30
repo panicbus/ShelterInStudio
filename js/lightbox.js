@@ -272,7 +272,7 @@
     var self = this;
     var filename = this.album[imageNumber].link;
     var filetype = filename.split('.').slice(-1)[0];
-    var $image = this.$lightbox.find('.lb-image');
+    var $image = this.$lightbox.find('.lb-image').addClass('lb-active');
 
     // Disable keyboard nav during transitions
     this.disableKeyboardNav();
@@ -419,7 +419,7 @@
   // Display the image and its details and begin preload neighboring images.
   Lightbox.prototype.showImage = function() {
     this.$lightbox.find('.lb-loader').stop(true).hide();
-    this.$lightbox.find('.lb-image').fadeIn(this.options.imageFadeDuration);
+    this.$lightbox.find('.lb-image').fadeIn(this.options.imageFadeDuration).addClass('lb-active');
 
     this.updateNav();
     this.updateDetails();
@@ -547,6 +547,7 @@
     $(window).off('resize', this.sizeOverlay);
     this.$lightbox.fadeOut(this.options.fadeDuration);
     this.$overlay.fadeOut(this.options.fadeDuration);
+    $('.lb-image').removeClass('lb-active');
 
     if (this.options.disableScrolling) {
       $('body').removeClass('lb-disable-scrolling');
