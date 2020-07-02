@@ -416,7 +416,7 @@ button:focus {
   background-size: cover;
 }
 #grid-thapa {
-  background: url('../img/artist-images/thapa/thapa-thumb.jpg') center;
+  /*background: url('../img/artist-images/thapa/thapa-thumb.jpg') center;*/
   background-size: cover;
 }
 #grid-tovera {
