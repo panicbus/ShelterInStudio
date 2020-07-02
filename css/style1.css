@@ -439,6 +439,10 @@ button:focus {
   background: url('../img/artist-images/fitzgibbon/fitzgibbon-thumb.jpg') center;
   background-size: cover;
 }
+#grid-tgtg {
+  background: url('../img/artist-images/tgtg/tgtg-thumb.jpg') center;
+  background-size: cover;
+}
 
 /* grid item element and full content element styles */
 .title {
