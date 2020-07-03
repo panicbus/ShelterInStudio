@@ -62,7 +62,7 @@
     this.setScrollbar()
     this.$body.addClass('modal-open')
 
-    this.escape()
+    // this.escape()
     this.resize()
 
     this.$element.on('click.dismiss.bs.modal', '[data-dismiss="modal"]', $.proxy(this.hide, this))
@@ -119,7 +119,7 @@
 
     this.isShown = false
 
-    this.escape()
+    // this.escape()
     this.resize()
 
     $(document).off('focusin.bs.modal')
@@ -149,15 +149,15 @@
       }, this))
   }
 
-  Modal.prototype.escape = function () {
-    if (this.isShown && this.options.keyboard) {
-      this.$element.on('keydown.dismiss.bs.modal', $.proxy(function (e) {
-        e.which == 27 && this.hide()
-      }, this))
-    } else if (!this.isShown) {
-      this.$element.off('keydown.dismiss.bs.modal')
-    }
-  }
+  // Modal.prototype.escape = function () {
+  //   if (this.isShown && this.options.keyboard) {
+  //     this.$element.on('keydown.dismiss.bs.modal', $.proxy(function (e) {
+  //       e.which == 27 && this.hide()
+  //     }, this))
+  //   } else if (!this.isShown) {
+  //     this.$element.off('keydown.dismiss.bs.modal')
+  //   }
+  // }
 
   Modal.prototype.resize = function () {
     if (this.isShown) {

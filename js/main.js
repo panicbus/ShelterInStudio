@@ -104,7 +104,7 @@
 
 		// keyboard esc - hide content
 		document.addEventListener('keydown', function(ev) {
-			if (!$('.lb-active').length > 0 ) {	
+			if ((!$('.lb-active').length > 0) && (!$('.modal.in').length > 0)) {	
 				if(!isAnimating && current !== -1) {
 					var keyCode = ev.keyCode || ev.which;
 					if( keyCode === 27 ) {
