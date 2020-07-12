@@ -169,7 +169,6 @@ button:focus {
   opacity: 1;
 }
 
-/* Top bar above the grid */
 .top-bar {
   background: #fff;
   width: 100%;
@@ -610,10 +609,6 @@ button:focus {
 .meta__location .fa-map-marker {
   font-size: 19px;
   vertical-align: -1px;
-}
-
-.meta-location i {
-
 }
 
 .article-nav {
@@ -1107,7 +1102,7 @@ button:focus {
   }
 }
 
-/*BOOTSTRAP OVERRIDES*/
+/*BOOTSTRAP MODAL OVERRIDES*/
 .modal-header {
   border-bottom: none !important;
 }

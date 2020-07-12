@@ -1,13 +1,3 @@
-/**
- * main.js
- * http://www.codrops.com
- *
- * Licensed under the MIT license.
- * http://www.opensource.org/licenses/mit-license.php
- * 
- * Copyright 2015, Codrops
- * http://www.codrops.com
- */
 (function() {
 
 	var bodyEl = document.body,
@@ -103,6 +93,7 @@
 		});
 
 		// keyboard esc - hide content
+		// first escape lightbox if visible then artist page, otherwise just escape artist page
 		document.addEventListener('keydown', function(ev) {
 			if ((!$('.lb-active').length > 0) && (!$('.modal.in').length > 0)) {	
 				if(!isAnimating && current !== -1) {
@@ -216,7 +207,7 @@
 		window.scrollTo(xscroll, yscroll);
 	}
 
-	// // ///////////// JSON AJAX /////////
+	// // ///////////// future JSON AJAX CALL /////////
 	// $.getJSON( "data.json", function( data ) {
 	//   var items = [];
 	//   $.each( data, function( key, val ) {

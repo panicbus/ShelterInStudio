@@ -149,6 +149,7 @@
       }, this))
   }
 
+  // Disabling escape key functionality for modals
   // Modal.prototype.escape = function () {
   //   if (this.isShown && this.options.keyboard) {
   //     this.$element.on('keydown.dismiss.bs.modal', $.proxy(function (e) {
