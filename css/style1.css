@@ -442,6 +442,10 @@ button:focus {
   background: url('../img/artist-images/tgtg/tgtg-thumb.jpg') center;
   background-size: cover;
 }
+#grid-fontain {
+  background: url('../img/artist-images/fontain/fontain-thumb.jpg') center;
+  background-size: cover;
+}
 
 /* grid item element and full content element styles */
 .title {
