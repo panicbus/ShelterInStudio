@@ -446,6 +446,10 @@ button:focus {
   background: url('../img/artist-images/fontain/fontain-thumb.jpg') center;
   background-size: cover;
 }
+#grid-trunzo {
+  background: url('../img/artist-images/trunzo/trunzo-thumb.jpg') center;
+  background-size: cover;
+}
 
 /* grid item element and full content element styles */
 .title {
