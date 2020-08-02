@@ -564,9 +564,17 @@ button:focus {
   text-align: left;
 }
 
-.meta .fa {
-  margin-right: 5px;
+/* the default user icon */
+.meta__avatar .fa {
+  width: 100%;
+  height: 100%;
+  font-size: 65px;
+  padding: 3px 12px;
 }
+
+/*.meta .fa {
+  margin-right: 5px;
+}*/
 
 .meta:before, .meta:after {
   display: table;
