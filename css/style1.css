@@ -458,6 +458,26 @@ button:focus {
   background: url('../img/artist-images/thie/thie-thumb.jpg') center;
   background-size: cover;
 }
+#grid-polonik {
+  background: url('../img/artist-images/polonik/polonik-thumb.jpg') center;
+  background-size: cover;
+}
+#grid-tall {
+  background: url('../img/artist-images/tall/tall-thumb.jpg') center;
+  background-size: cover;
+}
+#grid-toms {
+  background: url('../img/artist-images/toms/toms-thumb.jpg') center;
+  background-size: cover;
+}
+#grid-cunningham {
+  background: url('../img/artist-images/cunningham/cunningham-thumb.jpg') center;
+  background-size: cover;
+}
+#grid-fonda {
+  background: url('../img/artist-images/fonda/fonda-thumb.jpg') center;
+  background-size: cover;
+}
 
 /* grid item element and full content element styles */
 .title {
