@@ -119,8 +119,11 @@ textarea.input {
     padding-bottom: 0;
 }
 
-.input:focus {
+.input, .input:focus {
     outline: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
 }
 
 .label {
