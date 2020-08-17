@@ -71,6 +71,9 @@
                     <a href="/participate">participate</a>
                 </div>
 				
+                <br/>
+                <p><input type="text" class="quicksearch" placeholder="Filter by name" /></p>
+
 			</div>
 			<div id="theGrid" class="main">
 				<section class="grid">
@@ -754,11 +757,14 @@
 
 
         <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
-    	<script src="js/classie.js"></script>
+        <script src="https://npmcdn.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+    	<script src="js/isotopeFilter.js"></script>
+        <script src="js/classie.js"></script>
 		<script src="js/main.js"></script>
         <script src="js/modal.js"></script>
         <script src="js/lightbox.js"></script>
         <script src="js/submitForm.js"></script>
+
         <script type="text/javascript">
             $('.grid__item').click(function(){
                 var artistName = $(this).find('.meta--preview').attr('data-artist');
