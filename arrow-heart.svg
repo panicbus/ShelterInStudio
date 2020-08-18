@@ -1,0 +1,19 @@
+<svg width="75" height="75" xmlns="http://www.w3.org/2000/svg">
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <path id="svg_1" stroke-width="0.503" stroke-miterlimit="79.840319" marker-start="none" marker-end="none" fill-rule="evenodd" fill="#f6c232" d="m2.635,72.509c-1.183,-1.184 -1.183,-3.105 0,-4.289l23.707,-23.705c1.184,-1.184 3.105,-1.184 4.289,0c1.183,1.183 1.183,3.105 0,4.288l-23.707,23.706c-1.184,1.183 -3.105,1.183 -4.289,0z"/>
+  <path id="svg_2" stroke-width="0.503" stroke-miterlimit="79.840319" marker-start="none" marker-end="none" fill-rule="evenodd" fill="#ff6347" d="m31.744,70.422l-25.317,-25.632c-6.17,-6.247 -6.107,-16.326 0.14,-22.497c6.247,-6.17 16.326,-6.107 22.497,0.14l2.919,2.956l2.977,-2.95c6.237,-6.182 16.317,-6.137 22.497,0.1c6.182,6.237 6.137,16.316 -0.099,22.497l-25.614,25.386z"/>
+  <path id="svg_3" stroke-width="0.503" stroke-miterlimit="79.840319" marker-start="none" marker-end="none" fill-rule="evenodd" fill="#f6c232" d="m38.549,37.003c-1.107,-1.106 -1.107,-2.901 0,-4.007l16.209,-16.21c1.106,-1.107 2.901,-1.107 4.007,0c1.107,1.106 1.107,2.901 0,4.007l-16.209,16.21c-1.106,1.107 -2.901,1.107 -4.007,0z"/>
+  <path id="svg_4" stroke-width="0.503" stroke-miterlimit="79.840319" marker-start="none" marker-end="none" fill-rule="evenodd" fill="#f6c232" d="m0,71.871l0,-11.523c0,-1.673 1.358,-3.031 3.033,-3.031c1.673,0 3.031,1.358 3.031,3.031l0,8.492l8.178,0c1.673,0 3.031,1.358 3.031,3.031c0,1.675 -1.358,3.033 -3.031,3.033l-11.209,0c-1.675,0 -3.033,-1.358 -3.033,-3.033z"/>
+  <path id="svg_5" stroke-width="0.503" stroke-miterlimit="79.840319" marker-start="none" marker-end="none" fill-rule="evenodd" fill="#f6c232" d="m48.774,23.508l-0.001,-11.521c0,-1.674 1.358,-3.033 3.031,-3.033c1.674,0 3.033,1.359 3.033,3.032l0.001,8.489l8.177,0c1.673,0 3.031,1.359 3.031,3.032c0,1.674 -1.358,3.032 -3.031,3.032l-11.209,0c-1.674,0 -3.032,-1.358 -3.032,-3.031z"/>
+  <path id="svg_6" stroke-width="0.503" stroke-miterlimit="79.840319" marker-start="none" marker-end="none" fill-rule="evenodd" fill="#f6c232" d="m53.254,19.024l0,-11.522c0,-1.673 1.359,-3.031 3.033,-3.031c1.673,0 3.031,1.358 3.031,3.031l0,8.491l8.18,0c1.673,0 3.032,1.358 3.032,3.031c0,1.674 -1.359,3.033 -3.032,3.033l-11.211,0c-1.674,0 -3.033,-1.359 -3.033,-3.033z"/>
+  <path id="svg_7" stroke-width="0.503" stroke-miterlimit="79.840319" marker-start="none" marker-end="none" fill-rule="evenodd" fill="#f6c232" d="m57.728,14.555l0,-11.523c0,-1.673 1.358,-3.032 3.032,-3.032c1.673,0 3.032,1.359 3.032,3.032l0,8.491l8.177,0c1.673,0 3.031,1.359 3.031,3.032c0,1.674 -1.358,3.032 -3.031,3.032l-11.209,0c-1.674,0 -3.032,-1.358 -3.032,-3.032z"/>
+  <path id="svg_8" stroke-width="0.748" stroke-miterlimit="79.840319" stroke-linejoin="round" stroke-linecap="round" marker-start="none" marker-end="none" fill="#ffada0" d="m42.384,43.609l2.578,4.566c1.42,2.585 -0.302,5.254 -2.783,5.254c-3.033,0 -4.625,-3.058 -2.817,-5.382l3.022,-4.438z"/>
+  <path id="svg_9" stroke-width="2.659" stroke-miterlimit="79.840319" stroke-linecap="round" marker-start="none" marker-end="none" fill="#ff6347" d="m42.385,64.741l2.577,4.565c1.42,2.586 -0.302,5.255 -2.783,5.255c-3.034,0 -4.625,-3.057 -2.817,-5.382l3.023,-4.438z"/>
+ </g>
+</svg>

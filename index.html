@@ -52,27 +52,32 @@
 		<div class="container">
 			<button id="menu-toggle" class="menu-toggle"><span>Menu</span></button>
 			<div id="theSidebar" class="sidebar">
-				<button class="close-button fa fa-fw fa-close"></button>
-                
-                <span class="heart-icon" style="font-size: 4em; color: Tomato;">
-                    <i class="fa fa-heart"></i>
-                </span>
- 
-				<h1><span>Shelter<span> In Studio</h1>
+                <div class="sidebar-inner">
+    				<button class="close-button fa fa-fw fa-close"></button>
+                    
+                    <span class="heart-icon" style="font-size: 4em; color: Tomato;">
+                        <i class="fa fa-heart"></i>
+                    </span>
+     
+    				<h1><span>Shelter<span> In Studio</h1>
 
-                <h2>California Artists' Response to Covid-19</h2>
+                    <h2>California Artists' Response to Covid-19</h2>
 
-                <div class="shelter-links">
-                    <a class="mission" href="#" data-toggle="modal" data-target="#missionModal" title="Mission Statement"><span>Mission</span></a>
-                    <a class="about" href="#" data-toggle="modal" data-target="#aboutModal" title="About Shelter in Studio"><span>About</span></a>
+                    <div class="shelter-links">
+                        <a class="mission" href="#" data-toggle="modal" data-target="#missionModal" title="Mission Statement"><span>Mission</span></a>
+                        <a class="about" href="#" data-toggle="modal" data-target="#aboutModal" title="About Shelter in Studio"><span>About</span></a>
+                    </div>
+
+                    <div class="participate-link">
+                        <a href="/participate">participate</a>
+                    </div>
+    				
+                    <p><input type="text" class="quicksearch" placeholder="Filter by name" /></p>
+
+                    <footer class="copyright-footer">
+                        <span>&copy;2020 Shelter In Studio Project</span>
+                    </footer>
                 </div>
-
-                <div class="participate-link">
-                    <a href="/participate">participate</a>
-                </div>
-				
-<!--                 <p><input type="text" class="quicksearch" placeholder="Filter by name" /></p> -->
-
 			</div>
 			<div id="theGrid" class="main">
 				<section class="grid">
@@ -82,6 +87,16 @@
                         <h3>California Artists' Response <br/>to Covid-19</h3>
                     </header>
 
+                    <div class="no-results">
+                        <div class="no-results-inner">
+                            <div class="no-results-content">
+                                <div class="heart-arrow">
+                                    <img src="../arrow-heart.svg" alt="Arrow through my heart" />
+                                </div>
+                                <p>No artists matched your search. We still love you. Please refine your query.</p>
+                            </div>
+                        </div>
+                    </div>
 
 					<a class="grid__item" href="#">
                         <h2 class="title title--preview">Victoria Mara Heilweil</h2>
@@ -497,10 +512,6 @@
                             </div>
                         </div>
                     </a>
-                    
-					<footer class="page-meta">
-						<span>&copy;2020 Shelter In Studio Project</span>
-					</footer>
 				</section>
 				<section class="content">
 					<div class="scroll-wrap">
@@ -754,16 +765,23 @@
             </div>
         </div>
 
-
+        <!-- Javascripts -->
         <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
-        <script src="https://npmcdn.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
-    	<script src="js/isotopeFilter.js"></script>
         <script src="js/classie.js"></script>
 		<script src="js/main.js"></script>
         <script src="js/modal.js"></script>
         <script src="js/lightbox.js"></script>
         <script src="js/submitForm.js"></script>
-
+        <!-- Isotope is messing with the layout for mobile size so only hit the JS when not mobile -->
+        <script>
+            function isMobile() {
+                return /Android|webOS|iPhone|iPad|iPod|IEMobile/i.test(navigator.userAgent);
+            }
+            if (!isMobile()) {
+                document.write('<script type="text/javascript" src="https://npmcdn.com/isotope-layout@3/dist/isotope.pkgd.js"><\/script>');
+                document.write('<script type="text/javascript" src="js/isotopeFilter.js"><\/script>');
+            }
+        </script>
         <script type="text/javascript">
             $('.grid__item').click(function(){
                 var artistName = $(this).find('.meta--preview').attr('data-artist');
