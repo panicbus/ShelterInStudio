@@ -956,8 +956,10 @@ button:focus {
   pointer-events: auto;
 }
 
-.no-results {
+.no-results-hidden {
   display: none;
+}
+.no-results {
   height: 100vh;
   width: 100%;
   display: table;

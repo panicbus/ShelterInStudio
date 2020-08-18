@@ -37,9 +37,9 @@ function debounce( fn, threshold ) {
 function checkResults(){
   var visibleItemsCount = $grid.data('isotope').filteredItems.length;
   if( visibleItemsCount > 0 ){
-    $('.no-results').hide();
+    $('.no-results-hidden').hide();
   }
   else{
-    $('.no-results').show();
+    $('.no-results-hidden').show();
   }
 }
