@@ -334,6 +334,10 @@ button:focus {
 }
 
 /* ROUNDED PREVIEW IMAGES ON MAIN PAGE */
+#grid-default {
+  background: url('../img/sis.svg') center;
+  background-size: cover;
+}
 #grid-heilweil {
   background: url('../img/artist-images/heilweil/Victoria_Mara_Heilweil_Day34-thumb.jpg') center;
   background-size: cover;
