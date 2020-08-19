@@ -40,6 +40,6 @@ function checkResults(){
     $('.no-results-hidden').hide();
   }
   else{
-    $('.no-results-hidden').show();
+    $('.no-results-hidden').fadeIn(350);
   }
 }

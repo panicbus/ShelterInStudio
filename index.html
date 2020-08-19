@@ -72,7 +72,7 @@
                         <a href="/participate">participate</a>
                     </div>
     				
-                    <!-- <p><input type="text" class="quicksearch" placeholder="Filter by name" /></p> -->
+                    <p><input type="text" class="quicksearch" placeholder="Filter by name" /></p>
 
                     <footer class="copyright-footer">
                         <span>&copy;2020 Shelter In Studio Project</span>
@@ -86,19 +86,6 @@
                         <h2 class="top-bar__headline"><span style="font-size:0.9em;color:Tomato;"><i class="fa fa-heart"></i></span> Shelter In Studio</h2>
                         <h3>California Artists' Response <br/>to Covid-19</h3>
                     </header>
-
-                    <!-- <div class="no-result-hidden">
-                        <div class="no-results">
-                            <div class="no-results-inner">
-                                <div class="no-results-content">
-                                    <div class="heart-arrow">
-                                        <img src="../arrow-heart.svg" alt="Arrow through my heart" />
-                                    </div>
-                                    <p>No artists matched your search. We still love you. Please refine your query.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div> -->
 
 					<a class="grid__item" href="#">
                         <h2 class="title title--preview">Victoria Mara Heilweil</h2>
@@ -704,6 +691,19 @@
 					</div>
 					<button class="close-button"><i class="fa fa-close"></i><span>Close</span></button>
 				</section>
+
+                <div class="no-results-hidden">
+                    <div class="no-results">
+                        <div class="no-results-inner">
+                            <div class="no-results-content">
+                                <div class="heart-arrow">
+                                    <img src="../arrow-heart.svg" alt="Arrow through my heart" />
+                                </div>
+                                <p>No artists matched your search. We still love you. Please refine your query.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 			</div>
 		</div><!-- /container -->
 
@@ -775,7 +775,7 @@
         <script src="js/lightbox.js"></script>
         <script src="js/submitForm.js"></script>
         <!-- Isotope is messing with the layout for mobile size so only hit the JS when not mobile -->
-       <!--  <script>
+        <script>
             function isMobile() {
                 return /Android|webOS|iPhone|iPad|iPod|IEMobile/i.test(navigator.userAgent);
             }
@@ -783,7 +783,7 @@
                 document.write('<script type="text/javascript" src="https://npmcdn.com/isotope-layout@3/dist/isotope.pkgd.js"><\/script>');
                 document.write('<script type="text/javascript" src="js/isotopeFilter.js"><\/script>');
             }
-        </script> -->
+        </script>
         <script type="text/javascript">
             $('.grid__item').click(function(){
                 var artistName = $(this).find('.meta--preview').attr('data-artist');
