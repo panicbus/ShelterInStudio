@@ -25,7 +25,7 @@ function debounce(fn, threshold) {
     var args = arguments;
     var _this = this;
     if (!$('.qs-clear').length){
-      $('.qs-container').append('<div class="qs-clear">&times;</div>');
+      $('.qs-container').append('<div class="qs-clear" title="Clear search" alt="clear search" >&times;</div>');
     } else if ($('.quicksearch').val() === '') {
       $('.qs-clear').remove();
     }
