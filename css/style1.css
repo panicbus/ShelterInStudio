@@ -510,6 +510,10 @@ button:focus {
   background: url('../img/artist-images/fonda/fonda-thumb.jpg') center;
   background-size: cover;
 }
+#grid-feins {
+  background: url('../img/artist-images/feins/feins-thumb.jpg') center;
+  background-size: cover;
+}
 
 /* grid item element and full content element styles */
 .title {
