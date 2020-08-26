@@ -160,6 +160,16 @@ button:focus {
 .quicksearch:focus {
   outline: 2px solid #81c483 !important;
 }
+.qs-container {
+  position: relative;
+}
+.qs-clear {
+  position: absolute;
+  top: 17px;
+  right: 43px;
+  font-size: 23px;
+  cursor: pointer;
+}
 
 .copyright-footer {
   position: absolute;
