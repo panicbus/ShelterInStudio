@@ -19,21 +19,24 @@ var $quicksearch = $('.quicksearch').keyup(debounce(function() {
 // debounce so filtering doesn't happen every millisecond
 function debounce(fn, threshold) {
   var timeout;
-  threshold = threshold || 100;
+  threshold = threshold || 200;
   return function debounced(){
     clearTimeout(timeout);
     var args = arguments;
     var _this = this;
-    if (!$('.qs-clear').length){
-      $('.qs-container').append('<div class="qs-clear" title="Clear search" alt="clear search" >&times;</div>');
-    } else if ($('.quicksearch').val() === '') {
-      $('.qs-clear').remove();
-    }
     function delayed() {
       fn.apply(_this, args);
 	    checkResults();
     }
     timeout = setTimeout(delayed, threshold);
+    var tabEvent = args[0].originalEvent.key;
+    if (($('.qs-clear').length === 0) && (tabEvent !== "Tab")){
+      if (tabEvent !== "Shift"){
+        $('.qs-container').append('<div class="qs-clear" title="Clear search" alt="clear search" >&times;</div>');
+      }
+    } else if ($('.quicksearch').val() === '') {
+      $('.qs-clear').remove();
+    }
   };
 }
 
