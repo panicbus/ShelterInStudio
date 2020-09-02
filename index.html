@@ -823,17 +823,6 @@
                 document.write('<script type="text/javascript" src="js/isotopeFilter.js"><\/script>');
             }
         </script>
-        <script type="text/javascript">
-            $('.grid__item').click(function(){
-                var artistName = $(this).find('.meta--preview').attr('data-artist');
-                ga('send', {
-                    hitType: 'event',
-                    eventCategory: 'artistView',
-                    eventAction: 'click',
-                    eventLabel: artistName
-                });
-            });
-        </script>
 
 	</body>
 </html>
