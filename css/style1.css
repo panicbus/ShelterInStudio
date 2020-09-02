@@ -528,6 +528,10 @@ button:focus {
   background: url('../img/artist-images/chandon/chandon-thumb.jpg') center;
   background-size: cover;
 }
+#grid-turner {
+  background: url('../img/artist-images/turner/turner-thumb.jpg') center;
+  background-size: cover;
+}
 
 /* grid item element and full content element styles */
 .title {
