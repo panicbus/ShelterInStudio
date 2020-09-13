@@ -532,6 +532,10 @@ button:focus {
   background: url('../img/artist-images/turner/turner-thumb.jpg') center;
   background-size: cover;
 }
+#grid-dodge {
+  background: url('../img/artist-images/dodge/dodge-thumb.jpg') center;
+  background-size: cover;
+}
 
 /* grid item element and full content element styles */
 .title {
